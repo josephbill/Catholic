@@ -1,0 +1,7 @@
+This is a Catholic online content distribution app . 
+Includes the Catholic Bible, news , prayers ,videos and hymns 
+
+Requires data connection to show some content.
+
+
+Created by : Joseph Mbugua 

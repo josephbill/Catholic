@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.catholic"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/catholic"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.catholic.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.catholic.Catholicprayers"
+            android:label="@string/title_activity_catholicprayers" >
+        </activity>
+        <activity
+            android:name="com.example.catholic.News"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name="com.example.catholic.Bible"
+            android:label="@string/title_activity_bible" >
+        </activity>
+        <activity
+            android:name="com.example.catholic.Hymns"
+            android:label="@string/title_activity_hymns" >
+        </activity>
+        <activity
+            android:name="com.example.catholic.Videos"
+            android:label="@string/title_activity_videos" >
+        </activity>
+        <activity
+            android:name="com.example.catholic.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.example.catholic.Prayer2"
+            android:label="@string/title_activity_prayer2" >
+        </activity>
+        <activity
+            android:name="com.example.catholic.Mass"
+            android:label="@string/title_activity_mass" >
+        </activity>
+    </application>
+
+</manifest>

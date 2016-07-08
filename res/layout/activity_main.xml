@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/catholic"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/newsbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prayerbutton"
+        android:layout_below="@+id/prayerbutton"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/btnshapes"
+        android:onClick="newsbutton"
+        android:text="Kenyan Catholic Blogs " />
+
+    <Button
+        android:id="@+id/Bible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/newsbutton"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/btnshapes"
+        android:onClick="Bible"
+        android:text="English Catholic Bible " />
+
+    <Button
+        android:id="@+id/Videos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Bible"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btnshapes"
+        android:onClick="Videos"
+        android:text="Kenyan Catholic Choirs Videos " />
+
+    <Button
+        android:id="@+id/prayerbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Bible"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/btnshapes"
+        android:onClick="catholicprayers"
+        android:text="Catholic Prayers " />
+
+    <Button
+        android:id="@+id/mass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnshapes"
+        android:layout_alignLeft="@+id/Videos"
+        android:layout_below="@+id/Videos"
+        android:layout_marginTop="16dp"
+        android:onClick="mass"
+        android:text="The Order Of Mass" />
+
+    <Button
+        android:id="@+id/about1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mass1"
+        android:layout_below="@+id/mass1"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btnshapes"
+        android:onClick="about"
+        android:text="About " />
+
+</RelativeLayout>
